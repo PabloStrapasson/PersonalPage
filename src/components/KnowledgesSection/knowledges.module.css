@@ -1,0 +1,16 @@
+.main_content {
+    background-color: royalblue;
+    width: 100%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_title {
+    font-size: 16pt;
+}
+
+.icons_grid {
+    background-color: white;
+}

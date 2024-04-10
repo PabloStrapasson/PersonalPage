@@ -3,7 +3,7 @@
         {
             "name": "Pagina Pessoal",
             "description": "Projeto de uma página pessoal para me apresentar para o mundo e também servir como portifólio. A página foi desenvolvida com o framework NextJS.",
-            "repository": "",
+            "repository": "https://github.com/PabloStrapasson/PersonalPage",
             "technologies": ["JavaScript", "Next.js", "Sass"]
         },
         {
