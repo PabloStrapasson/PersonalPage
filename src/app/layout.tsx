@@ -6,7 +6,6 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Pablo Strapasson",
-  //icons: [{ rel: "icon", url: "/favicon.png" }],
 };
 
 export default function RootLayout({

@@ -1,0 +1,31 @@
+.project_card {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    background-color: bisque;
+}
+
+.project_card_header {
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+}
+
+/*.content img {
+    width: 100px;
+    margin: 10px;
+}*/
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}

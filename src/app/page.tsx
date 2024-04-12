@@ -1,23 +1,14 @@
-import Image from "next/image";
 import styles from "../styles/page.module.css";
 import Main from "@/components/Header/header";
 import Knowledges from "@/components/KnowledgesSection/knowledges";
+import ProjectsSection from "@/components/ProjectsSection/projectssection";
 
-export default function Home() {
+export default function Home(projects : Object) {
   return (
     <main className={styles.main}>
       <Main/>
       <Knowledges/>
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/icons/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <ProjectsSection />
     </main>
   );
 }

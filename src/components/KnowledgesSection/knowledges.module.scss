@@ -1,0 +1,21 @@
+.main_content {
+    background-color: royalblue;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .main_title{
+        font-size: 16pt; 
+        display: flex; 
+        justify-content: center;
+    }
+    
+    .icons_grid {
+        background-color: white;
+        display: flex; 
+        justify-content: center;
+    }
+}
+

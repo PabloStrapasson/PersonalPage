@@ -1,12 +1,21 @@
 import styles from "./iconsgrid.module.css"
+import Icon from "@/components/Icon/icon"
 
-export default function IconsGrid() {
+interface Props {
+  knowledges: string[]
+}
+
+export default function IconsGrid({ knowledges }: Props) {
   return (
     <div>
-        <a>JavaScript</a>
-        <a>Node</a>
-        <a>MongoDB</a>
-        <a>Python</a>
+        {knowledges.map((tech) => (
+          <Icon
+            src={`/icons/${tech}.svg`}
+            alt={tech}
+            class_name="icon_knowledges"
+            title={tech}
+          />
+        ))}
     </div>
   )
 }

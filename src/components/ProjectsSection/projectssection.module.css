@@ -1,0 +1,38 @@
+.projects_container {
+    background-color: red;
+}
+
+.project_container_header {
+    display: flex;
+    justify-content: center;
+}
+
+.projects_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+}
+
+/*.projects {
+    width: 400px;
+    background-color: bisque;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+}
+
+.content img {
+    width: 100px;
+    margin: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}*/
