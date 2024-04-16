@@ -9,9 +9,11 @@ export default function Header() {
         <About/>
         <Profile/>
       </div>
-      <div className={styles.about}>
+      {/*
+        <div className={styles.about}>
         
-      </div>
+      </div>*/
+      }
     </div>
   )
 }

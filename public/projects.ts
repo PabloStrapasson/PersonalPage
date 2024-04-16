@@ -13,7 +13,7 @@ const projects = {
             technologies: ["javascript", "typescript", "react", "sass"]
         },
         {
-            name: "NFL Guide",
+            name: "Guia times da NFL",
             description: "Projeto de um guia dos times da NFL(National Football League), trazendo algumas informações como breve história e número de títulos. O front-end foi desenvolvido com Next.js e TypeScript, enquanto o back-end foi desenvolvido em formato de API utilizando Node.js e MongoDB.",
             repository: "https://github.com/PabloStrapasson/NFL_Guide",
             technologies: ["javascript", "typescript", "react", "next", "css", "nodejs", "mongodb"]

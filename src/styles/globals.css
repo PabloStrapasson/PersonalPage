@@ -20,13 +20,12 @@
   "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
   "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   --font-size-h1: 40pt;
-  --font-size-h2: 20pt;
+  --font-size-h2: 22pt;
   --font-size-p: 14pt;
   --font-size-contact: 10pt;
   --text-color-primary: #424242;
   --text-color-secondary: #FFFFFF;
   --text-color-button: #4169e1;
-  --text-title-color: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(19,121,9,1) 100%);
   
     /* variaveis de margin */
     --margin: 20px;
