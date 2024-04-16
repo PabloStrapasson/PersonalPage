@@ -11,11 +11,7 @@ export default function ProjectCard({project}: Props) {
   return (
     <div className={styles.project_card}>
         <div className={styles.project_card_header}>
-
           <h2>{project.name}</h2>
-
-          
-
         </div>
 
         <div className={styles.project_description}>
@@ -23,7 +19,7 @@ export default function ProjectCard({project}: Props) {
         </div>
         
         <div className={styles.button}>
-        <div className={styles.icons}>
+          <div className={styles.icons}>
             {project.technologies.map((tech) => (
                 <Icon
                     src={`/icons/${tech}.svg`}
@@ -33,8 +29,10 @@ export default function ProjectCard({project}: Props) {
                 />
             ))}
           </div>
-          <Button href={project.repository}> Repositório </Button>
+          <Button href={project.repository}> Repositório &raquo;</Button>
         </div>
       </div>
   )
 }
+// ->: &rarr;
+// >>: &raquo;

@@ -1,16 +1,33 @@
 .repository_button {
-    width: 110px;
+    width: 120px;
     height: 40px;
     display: flex;
-    /*background-color: var(--backgorund-button);
-    color: var(--text-color-secondary);*/
     color: #4169e1;
     align-items: center;
     justify-content: center;
     border-radius: var(--border-radius);
+    transition: 0.5s;
+}
+
+.repository_button:hover {
+    background-color: var(--background-button-hover);
+    color: var(--text-color-secondary);
 }
 /*
 .repository_button:hover {
+    animation-name: button_hover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes button_hover{
+    from {
+        background-color: var(--background-button);
+        color: var(--text-color-button);
+    }
+    to {
+        background-color: var(--background-button-hover);
+        color: var(--text-color-secondary);
+    }
 }
 */

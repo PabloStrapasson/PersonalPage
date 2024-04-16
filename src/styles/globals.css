@@ -1,5 +1,4 @@
 :root {
-  /* Definir todas as variaveis ex: border-radius, margin, etc*/
   /* variaveis de cores de background */
   --background-page2: #212121;
   --background-page: #F6F6F6;
@@ -7,7 +6,9 @@
   --background-section: #424242;
   --background-card: #FFFFFF;
   --background-card2: #A5A5A5;
-  --background-button: #4169e1;
+  --background-button: #FFFFFF;
+  --background-button-hover: #4169e1;
+  --background-color-footer: #4169e1;
 
   /* variaveis de borda */
   --border-color: #585858;
@@ -24,10 +25,11 @@
   --font-size-contact: 10pt;
   --text-color-primary: #424242;
   --text-color-secondary: #FFFFFF;
+  --text-color-button: #4169e1;
   --text-title-color: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(19,121,9,1) 100%);
   
     /* variaveis de margin */
-    --margin: 10px;
+    --margin: 20px;
     --margin-project-card: 20px;
     --margin-icons: 4px;
     --margin-knowledges-icons: 5px;

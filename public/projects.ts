@@ -1,28 +1,16 @@
 const projects = {
     projects: [
         {
-            name: "Pagina Pessoal",
+            name: "Página Pessoal",
             description: "Projeto de uma página pessoal para me apresentar para o mundo e também servir como portifólio. A página foi desenvolvida com o framework NextJS.",
             repository: "https://github.com/PabloStrapasson/PersonalPage",
             technologies: ["javascript", "react", "next", "sass"]
-        },
-        {
-            name: "Spotify clone",
-            description: "Projeto desenvolvido durante o evento imersão front-end promovido pela Alura. Consiste na implementação da página inicial do aplicativo Spotify, utilizando HTML, CSS e JavaScript.",
-            repository: "https://github.com/PabloStrapasson/Spotify-clone",
-            technologies: ["html", "css", "javascript"]
         },
         {
             name: "App Studies",
             description: "Aplicação para auxilio na organização dos estudos. Possibilita a criação e adição de novas tarefas a uma lista de tarefas a serem realizadas, bem como um cronometro para marcar o tempo de realização de cada tarefa. Para a implementação foi utilizado React, Typescript e Sass para a estilização.",
             repository: "https://github.com/PabloStrapasson/App-Studies",
             technologies: ["javascript", "typescript", "react", "sass"]
-        },
-        {
-            name: "Alura case",
-            description: "Projeto desenvolvido com framework Next.js. Trata-se de um clone da página do Alura Casem desenvolvido no curso 'Explorando NextJS' da Alura.",
-            repository: "https://github.com/PabloStrapasson/Alura-case",
-            technologies: ["javascript", "react", "next"]
         },
         {
             name: "NFL Guide",
@@ -53,7 +41,19 @@ const projects = {
             description: "Projeto de uma aplicação de linha de comando utilizando o framework Spring Boot para realizar o consumo de uma API externa de filmes e séries e com base nos dados recebidos aplicar uma série de operações e apresentar ao usuário.",
             repository: "https://github.com/PabloStrapasson/First-Spring-Project",
             technologies: ["java", "spring"]
-        }
+        },
+        {
+            name: "Alura case",
+            description: "Projeto desenvolvido com framework Next.js. Trata-se de um clone da página do Alura Casem desenvolvido no curso 'Explorando NextJS' da Alura.",
+            repository: "https://github.com/PabloStrapasson/Alura-case",
+            technologies: ["javascript", "react", "next"]
+        },
+        {
+            name: "Spotify clone",
+            description: "Projeto desenvolvido durante o evento imersão front-end promovido pela Alura. Consiste na implementação da página inicial do aplicativo Spotify, utilizando HTML, CSS e JavaScript.",
+            repository: "https://github.com/PabloStrapasson/Spotify-clone",
+            technologies: ["html", "css", "javascript"]
+        },
     ]
 }
 

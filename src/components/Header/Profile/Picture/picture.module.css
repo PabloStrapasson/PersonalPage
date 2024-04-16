@@ -1,4 +1,5 @@
 .picture {
+    margin: var(--margin) 0px;
     display: flex;
     justify-content: center;
 }

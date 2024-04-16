@@ -1,6 +1,7 @@
 .about {
     color: var(--text-color);
     margin: var(--margin);
+    padding-right: var(--padding);
 }
 
 .about h1 {

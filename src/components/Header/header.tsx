@@ -5,11 +5,12 @@ import Profile from "./Profile/profile"
 export default function Header() {
   return (
     <div className={styles.header}>
-      <div>
+      <div className={styles.profile}>
         <About/>
-      </div>
-      <div>
         <Profile/>
+      </div>
+      <div className={styles.about}>
+        
       </div>
     </div>
   )

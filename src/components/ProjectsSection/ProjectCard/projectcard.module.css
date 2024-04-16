@@ -1,7 +1,6 @@
 .project_card {
-    /*background-color: var(--background-card);*/
     background-color: white;
-    width: 500px;
+    width: 350px; /*500*/
     height: auto;
     margin: var(--margin-project-card);
     border-radius: var(--border-radius);
@@ -10,12 +9,13 @@
 }
 
 .project_card_header {
-    background-color: #B7B7B7;
-    color: var(--text-color-secondary);
+    background-color: #FFFFFF;
+    color: var(--text-color-primary);
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
+    border-bottom: 1px groove #ccc;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 30px;
     padding: var(--padding);
@@ -27,8 +27,8 @@
 }
 
 .project_description {
-    /*background-color: var(--background-card);*/
-    height: 120px;
+    /*height: 120px;*/
+    height: 175px;
     text-align: justify;
     margin: var(--margin);
     
@@ -36,6 +36,7 @@
 
 .button {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: var(--margin) var(--margin-project-card);
 }
