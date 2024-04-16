@@ -18,13 +18,14 @@ export default function SocialMedias() {
         href="https://github.com/PabloStrapasson"
         title="GitHub"
       />
-      {/*
+      
       <Icon 
-        icon_src="/icons/gmail1.svg"
-        icon_alt="gmail"
+        src="/icons/gmail1.svg"
+        alt="gmail"
         class_name="icon_social_media"
         href="mailto:pablostrapasson98@gmail.com"
-      /> */}
+        title="gmail"
+      /> 
     </div>
   )
 }

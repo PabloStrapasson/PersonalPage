@@ -1,4 +1,6 @@
 .profile_itens {
-    background-color: blueviolet;
-    justify-content: center;
+    width: auto;
+    text-align: center;
+    margin: var(--margin);
+    font-size: var(--font-size-contact);
 }

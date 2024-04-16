@@ -1,0 +1,16 @@
+.about {
+    color: var(--text-color);
+    margin: var(--margin);
+}
+
+.about h1 {
+    font-size: var(--font-size-h1);
+}
+
+.about h2 {
+    font-size: var(--font-size-h2);
+}
+
+.about p {
+    font-size: var(--font-size-p);
+}

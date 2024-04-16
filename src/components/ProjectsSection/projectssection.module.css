@@ -1,9 +1,11 @@
 .projects_container {
-    background-color: red;
+    width: 100%;
 }
 
 .project_container_header {
+    height: 50px;
     display: flex;
+    margin: var(--margin);
     justify-content: center;
 }
 
@@ -12,27 +14,3 @@
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
 }
-
-/*.projects {
-    width: 400px;
-    background-color: bisque;
-}
-
-.icons {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.content {
-    display: flex;
-}
-
-.content img {
-    width: 100px;
-    margin: 10px;
-}
-
-.button {
-    display: flex;
-    justify-content: flex-end;
-}*/

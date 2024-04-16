@@ -14,7 +14,16 @@ export default function ProjectCard({project}: Props) {
 
           <h2>{project.name}</h2>
 
-          <div className={styles.icons}>
+          
+
+        </div>
+
+        <div className={styles.project_description}>
+          {project.description}
+        </div>
+        
+        <div className={styles.button}>
+        <div className={styles.icons}>
             {project.technologies.map((tech) => (
                 <Icon
                     src={`/icons/${tech}.svg`}
@@ -24,18 +33,6 @@ export default function ProjectCard({project}: Props) {
                 />
             ))}
           </div>
-
-        </div>
-
-        <div className={styles.content}>
-
-          <div className={styles.description}>
-            {project.description}
-          </div>
-
-        </div>
-        
-        <div className={styles.button}>
           <Button href={project.repository}> Repositório </Button>
         </div>
       </div>

@@ -2,13 +2,13 @@ import styles from "./iconsgrid.module.css"
 import Icon from "@/components/Icon/icon"
 
 interface Props {
-  knowledges: string[]
+  skills: string[]
 }
 
-export default function IconsGrid({ knowledges }: Props) {
+export default function IconsGrid({ skills }: Props) {
   return (
-    <div>
-        {knowledges.map((tech) => (
+    <div className={styles.icons_grid}>
+        {skills.map((tech) => (
           <Icon
             src={`/icons/${tech}.svg`}
             alt={tech}

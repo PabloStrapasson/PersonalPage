@@ -7,6 +7,7 @@ export default function Profile() {
     <div className={styles.profile_itens}>
         <Picture/>
         <SocialMedias/>
+        <p> pablostrapasson98@gmail.com </p>
     </div>
   )
 }

@@ -4,7 +4,7 @@ const projects = {
             name: "Pagina Pessoal",
             description: "Projeto de uma página pessoal para me apresentar para o mundo e também servir como portifólio. A página foi desenvolvida com o framework NextJS.",
             repository: "https://github.com/PabloStrapasson/PersonalPage",
-            technologies: ["javascript", "next", "sass"]
+            technologies: ["javascript", "react", "next", "sass"]
         },
         {
             name: "Spotify clone",
@@ -16,19 +16,19 @@ const projects = {
             name: "App Studies",
             description: "Aplicação para auxilio na organização dos estudos. Possibilita a criação e adição de novas tarefas a uma lista de tarefas a serem realizadas, bem como um cronometro para marcar o tempo de realização de cada tarefa. Para a implementação foi utilizado React, Typescript e Sass para a estilização.",
             repository: "https://github.com/PabloStrapasson/App-Studies",
-            technologies: ["javascript", "typescript", "sass"]
+            technologies: ["javascript", "typescript", "react", "sass"]
         },
         {
             name: "Alura case",
             description: "Projeto desenvolvido com framework Next.js. Trata-se de um clone da página do Alura Casem desenvolvido no curso 'Explorando NextJS' da Alura.",
             repository: "https://github.com/PabloStrapasson/Alura-case",
-            technologies: ["javascript", "next"]
+            technologies: ["javascript", "react", "next"]
         },
         {
             name: "NFL Guide",
             description: "Projeto de um guia dos times da NFL(National Football League), trazendo algumas informações como breve história e número de títulos. O front-end foi desenvolvido com Next.js e TypeScript, enquanto o back-end foi desenvolvido em formato de API utilizando Node.js e MongoDB.",
             repository: "https://github.com/PabloStrapasson/NFL_Guide",
-            technologies: ["javascript", "typescript", "next", "css", "nodejs", "mongodb"]
+            technologies: ["javascript", "typescript", "react", "next", "css", "nodejs", "mongodb"]
         },
         {
             name: "API Livraria",

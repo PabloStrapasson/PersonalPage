@@ -1,16 +1,17 @@
 .icon_social_media {
     width: 25px;
     height: 25px;
+    margin: var(--margin-icons)
 }
 
 .icon_knowledges {
     width: 50px;
     height: 50px;
-    margin: 5px;
+    margin: var(--margin-knowledges-icons);
 }
 
 .icon_projects_tecnologies {
     width: 20px;
     height: 20px;
-    margin: 2px;
+    margin: var(--margin-projects-icon);
 }

@@ -1,9 +1,4 @@
 .social_media_icons {
-    background-color: white;
     display: flex;
     justify-content: center;
-}
-
-.social_media_icons a{
-    margin: 2px 4px;
 }

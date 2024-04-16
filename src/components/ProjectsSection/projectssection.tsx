@@ -7,9 +7,6 @@ const projectsList = projects.projects
 export default function ProjectsSection() {
   return (
     <div className={styles.projects_container}>
-      {/*projectsList.map((b)=>(
-        <p>{b.name}</p>
-      ))*/}
       <div className={styles.project_container_header}>
         <h1>
           Meus Projetos:
