@@ -3,8 +3,8 @@ import Header from "@/components/Header/header";
 import Knowledges from "@/components/KnowledgesSection/knowledges";
 import ProjectsSection from "@/components/ProjectsSection/projectssection";
 import Menu from "@/components/Menu/menu";
-
-export default function Home(projects : Object) {
+//projects : Object
+export default function Home() {
   return (
     <main className={styles.main}>
       <Menu/>
