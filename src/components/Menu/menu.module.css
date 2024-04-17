@@ -22,6 +22,7 @@
 
 .menu_content a {
     position: relative;
+    margin-right: var(--margin);
 }
 
 .menu_content a::after {

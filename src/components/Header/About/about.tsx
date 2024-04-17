@@ -1,5 +1,3 @@
-import Icon from "@/components/Icon/icon"
-import SocialMedias from "../Profile/SocialMedias/socialmedias"
 import styles from "./about.module.css"
 
 export default function About() {
