@@ -3,11 +3,23 @@
     height: 25px;
     margin: var(--margin-icons)
 }
+.icon_social_media:hover {
+    width: 27px;
+    height: 27px;
+    margin: calc(var(--margin-icons) - 1px);
+}
 
 .icon_knowledges {
     width: 50px;
     height: 50px;
     margin: var(--margin-knowledges-icons);
+    opacity: 0.9;
+}
+.icon_knowledges:hover {
+    opacity: 1;
+    width: 54px;
+    height: 54px;
+    margin: calc(var(--margin-knowledges-icons) - 2px);
 }
 
 .icon_projects_tecnologies {

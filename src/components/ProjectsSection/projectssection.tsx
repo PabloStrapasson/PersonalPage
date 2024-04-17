@@ -6,8 +6,8 @@ const projectsList = projects.projects
 
 export default function ProjectsSection() {
   return (
-    <div className={styles.projects_container}>
-      <div className={styles.project_container_header}>
+    <div className={styles.projects_container}>      
+      <div className={styles.project_container_header} id="meus_projetos">
         <h1>
           Meus Projetos:
         </h1>

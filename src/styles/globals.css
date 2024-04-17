@@ -1,17 +1,18 @@
 :root {
-  /* variaveis de cores de background */
   --background-page2: #212121;
-  --background-page: #F6F6F6;
-  --background-page3: #FFFFFF;
   --background-section: #424242;
+  
+  /* variaveis de cores e background */
+  --background-page: #F6F6F6;
   --background-card: #FFFFFF;
-  --background-card2: #A5A5A5;
   --background-button: #FFFFFF;
   --background-button-hover: #4169e1;
   --background-color-footer: #4169e1;
+  --background-color-knowledges: #4169e1;
+  --color-box-shadow: rgba(0, 0, 0, 0.171);
 
   /* variaveis de borda */
-  --border-color: #585858;
+  --border-color: #CCCCCC;
   --border-radius: 12px;
   --border-radius-knowledges: 15px;
   
@@ -23,21 +24,23 @@
   --font-size-h2: 22pt;
   --font-size-p: 14pt;
   --font-size-contact: 10pt;
+  --font-size-title-knowledges: 16pt;
   --text-color-primary: #424242;
   --text-color-secondary: #FFFFFF;
   --text-color-button: #4169e1;
   
-    /* variaveis de margin */
-    --margin: 20px;
-    --margin-project-card: 20px;
-    --margin-icons: 4px;
-    --margin-knowledges-icons: 5px;
-    --margin-projects-icon: 2px;
+  /* variaveis de margin */
+  --margin: 20px;
+  --margin-project-card: 20px;
+  --margin-icons: 4px;
+  --margin-knowledges-icons: 5px;
+  --margin-projects-icon: 2px;
     
-    /* outras variaveis */
-    --padding: 20px;
-    --max-width: 1100px;
-  }
+  /* outras variaveis */
+  --padding: 20px;
+  --padding-main: 6rem;
+  --max-width: 1100px;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -82,6 +85,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {

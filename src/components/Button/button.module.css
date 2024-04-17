@@ -2,7 +2,7 @@
     width: 120px;
     height: 40px;
     display: flex;
-    color: #4169e1;
+    color: var(--text-color-button);
     align-items: center;
     justify-content: center;
     border-radius: var(--border-radius);
@@ -13,21 +13,3 @@
     background-color: var(--background-button-hover);
     color: var(--text-color-secondary);
 }
-/*
-.repository_button:hover {
-    animation-name: button_hover;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes button_hover{
-    from {
-        background-color: var(--background-button);
-        color: var(--text-color-button);
-    }
-    to {
-        background-color: var(--background-button-hover);
-        color: var(--text-color-secondary);
-    }
-}
-*/

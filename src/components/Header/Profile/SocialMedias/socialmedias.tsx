@@ -24,7 +24,7 @@ export default function SocialMedias() {
         alt="gmail"
         class_name="icon_social_media"
         href="mailto:pablostrapasson98@gmail.com"
-        title="gmail"
+        title="Gmail"
       /> 
     </div>
   )

@@ -1,5 +1,5 @@
 .header{
-    width: 100%;   
+    width: 100%;
 }
 
 .profile {
@@ -7,8 +7,3 @@
     align-items: center;
     justify-content: space-between;
 }
-/*
-.about {
-    margin: var(--margin);
-    text-align: center;
-}*/

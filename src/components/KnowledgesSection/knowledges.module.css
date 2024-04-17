@@ -1,18 +1,18 @@
 .main_content {
-    background-color: royalblue;
+    background-color: var(--background-color-knowledges);
     width: 80%;
     height: 200px;
-    border: 1px groove #ccc;
+    border: 1px groove var(--border-color);
     border-radius: var(--border-radius-knowledges);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.171);
+    box-shadow: 0px 5px 5px var(--color-box-shadow);
 }
 
 .main_title{
     color: var(--text-color-secondary);
-    font-size: 16pt;
+    font-size: var(--font-size-title-knowledges);
     height: 40px; 
     display: flex; 
     justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 .icons_grid {
-    background-color: white;
+    background-color: var( --background-card);
     height: 160px;
     display: flex; 
     justify-content: center;
