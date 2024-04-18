@@ -16,3 +16,25 @@
         translate: 0 0;
     }
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+    .profile_itens {
+        font-size: var(--font-size-mobile-contact);
+        animation: appear 2.5s ease-in-out;
+    }
+  
+  }
+  
+  /* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    
+    .profile_itens {
+        width: auto;
+        text-align: center;
+        margin: var(--margin);
+        font-size: var(--font-size-contact);
+        animation: appear 2s ease-in-out;
+    }
+  
+}

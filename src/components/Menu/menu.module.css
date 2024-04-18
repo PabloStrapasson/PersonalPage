@@ -39,3 +39,16 @@
 .menu_content a:hover::after {
     width: 100%;
 }
+
+@media (max-width: 700px) {
+
+    .main_menu {
+        height: 50px;
+    }
+
+    .menu_content {
+        height: 80%;
+        padding: 0rem;
+        font-size: var(--font-size-mobile-button);
+    }
+}

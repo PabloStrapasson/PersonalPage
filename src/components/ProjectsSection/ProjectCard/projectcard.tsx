@@ -15,7 +15,7 @@ export default function ProjectCard({project}: Props) {
         </div>
 
         <div className={styles.project_description}>
-          {project.description}
+          <p>{project.description}</p>
         </div>
         
         <div className={styles.button}>

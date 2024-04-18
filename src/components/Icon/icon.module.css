@@ -1,7 +1,7 @@
 .icon_social_media {
     width: 25px;
     height: 25px;
-    margin: var(--margin-icons)
+    margin: var(--margin-icons);
 }
 .icon_social_media:hover {
     width: 27px;
@@ -26,4 +26,62 @@
     width: 20px;
     height: 20px;
     margin: var(--margin-projects-icon);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    
+    .icon_social_media {
+        width: 15px;
+        height: 15px;
+    }
+    .icon_social_media:hover {
+        width: 17px;
+        height: 17px;
+    }
+    
+    .icon_knowledges {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+    .icon_knowledges:hover {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .icon_projects_tecnologies {
+        width: 15px;
+        height: 15px;
+    }
+  
+}
+  
+  /* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    
+    .icon_social_media {
+        width: 15px;
+        height: 15px;
+    }
+    .icon_social_media:hover {
+        width: 17px;
+        height: 17px;
+    }
+    
+    .icon_knowledges {
+        width: 40px;
+        height: 40px;
+        opacity: 1;
+    }
+    .icon_knowledges:hover {
+        width: 44px;
+        height: 44px;
+    }
+    
+    .icon_projects_tecnologies {
+        width: 15px;
+        height: 15px;
+    }
+  
 }

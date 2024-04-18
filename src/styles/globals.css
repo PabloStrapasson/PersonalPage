@@ -1,8 +1,5 @@
-:root {
-  --background-page2: #212121;
-  --background-section: #424242;
-  
-  /* variaveis de cores e background */
+:root {  
+  /* colors and backgrounds */
   --background-page: #F6F6F6;
   --background-card: #FFFFFF;
   --background-button: #FFFFFF;
@@ -11,12 +8,12 @@
   --background-color-knowledges: #4169e1;
   --color-box-shadow: rgba(0, 0, 0, 0.171);
 
-  /* variaveis de borda */
+  /* borders */
   --border-color: #CCCCCC;
   --border-radius: 12px;
   --border-radius-knowledges: 15px;
   
-  /* variaveis de fonte */
+  /* fonts and colors */
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
   "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
   "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
@@ -25,54 +22,32 @@
   --font-size-p: 14pt;
   --font-size-contact: 10pt;
   --font-size-title-knowledges: 16pt;
+  --font-size-button: ;
+  /* fonts size for mobile */
+  --font-size-mobile-h1: 18pt;
+  --font-size-mobile-h2: 12pt;
+  --font-size-mobile-p: 10pt;
+  --font-size-mobile-contact: 8pt;
+  --font-size-mobile-title-knowledges: 10pt;
+  --font-size-mobile-button: 10pt;
+  /* text colors */
   --text-color-primary: #424242;
   --text-color-secondary: #FFFFFF;
   --text-color-button: #4169e1;
   
-  /* variaveis de margin */
+  /* margins */
   --margin: 20px;
   --margin-project-card: 20px;
   --margin-icons: 4px;
   --margin-knowledges-icons: 5px;
   --margin-projects-icon: 2px;
+  /* Mobile */
+  --margin-mobile: 10px;
     
-  /* outras variaveis */
+  /* paddings */
   --padding: 20px;
   --padding-main: 6rem;
-  --max-width: 1100px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
+  --padding-main-tablet: 3rem;
 }
 
 * {
@@ -96,10 +71,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

@@ -30,43 +30,19 @@
   */
 }
 
-@media (prefers-reduced-motion) {
-  /*
-  .card:hover span {
-    transform: none;
-  }
-  */
-}
-
 /* Mobile */
 @media (max-width: 700px) {
-  
+  .main {
+    padding: 0;
+  }
+
 }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  /*
-  .grid {
-    grid-template-columns: repeat(2, 50%);
-  }
-  */
-}
-
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
+  
+  .main {
+    padding: var(--padding-main-tablet);
   }
 
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
 }

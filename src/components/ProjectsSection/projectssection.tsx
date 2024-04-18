@@ -8,9 +8,7 @@ export default function ProjectsSection() {
   return (
     <div className={styles.projects_container}>      
       <div className={styles.project_container_header} id="meus_projetos">
-        <h1>
-          Meus Projetos:
-        </h1>
+        <h1> Meus Projetos: </h1>
       </div>
       <div className={styles.projects_grid}>
         {projectsList.map((project) => (

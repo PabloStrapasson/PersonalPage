@@ -7,3 +7,26 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+    
+    .profile {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
+  }
+  
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 701px) and (max-width: 1120px) {
+    
+    .profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  
+  }
