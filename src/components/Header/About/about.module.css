@@ -65,7 +65,6 @@
     
     .about p {
         font-size: var(--font-size-mobile-p);
-        animation: up 2.5s ease-in-out;
     }
     
     #first_h2 {
@@ -83,20 +82,19 @@
   
 }
   
-  /* Tablet and Smaller Desktop */
+/* Tablet */
 @media (min-width: 701px) and (max-width: 1120px) {
 
     .about h1 {
-        font-size: var(--font-size-h1);
+        font-size: var(--font-size-tablet-h1);
     }
 
     .about h2 {
-        font-size: var(--font-size-h2);
+        font-size: var(--font-size-tablet-h2);
     }
 
     .about p {
-        font-size: var(--font-size-p);
-        animation: up 2.5s ease-in-out;
+        font-size: var(--font-size-mobile-p);
     }
   
 }

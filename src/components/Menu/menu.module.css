@@ -40,6 +40,7 @@
     width: 100%;
 }
 
+/* Mobile */
 @media (max-width: 700px) {
 
     .main_menu {
@@ -51,4 +52,19 @@
         padding: 0rem;
         font-size: var(--font-size-mobile-button);
     }
+}
+
+/* Tablet */
+@media (min-width: 701px) and (max-width: 1120px) {
+    
+    .main_menu {
+        height: 60px;
+    }
+
+    .menu_content {
+        height: 80%;
+        padding: var(--padding-main-tablet);
+        font-size: var(--font-size-mobile-button);
+    }
+    
 }

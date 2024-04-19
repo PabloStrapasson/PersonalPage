@@ -17,6 +17,7 @@
     justify-items: center;
 }
 
+/* Mobile */
 @media (max-width: 700px) {
 
     .project_container_header {
@@ -31,14 +32,15 @@
     
 }
 
+/* Tablet */
 @media (min-width: 701px) and (max-width: 1120px) {
     
     .project_container_header {
-        height: 30px;
-        margin: 0px;
-        font-size: 8pt;
+        height: 40px;
+        margin: var(--margin-mobile);
+        font-size: 10pt;
     }
-    
+
     .projects_grid {
         grid-template-columns: 1fr 1fr;
     }

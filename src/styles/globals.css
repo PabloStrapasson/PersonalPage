@@ -30,6 +30,9 @@
   --font-size-mobile-contact: 8pt;
   --font-size-mobile-title-knowledges: 10pt;
   --font-size-mobile-button: 10pt;
+  /* fonts size for tablets */
+  --font-size-tablet-h1: 22pt;
+  --font-size-tablet-h2: 14pt;
   /* text colors */
   --text-color-primary: #424242;
   --text-color-secondary: #FFFFFF;
@@ -41,12 +44,15 @@
   --margin-icons: 4px;
   --margin-knowledges-icons: 5px;
   --margin-projects-icon: 2px;
-  /* Mobile */
+  /* margins for mobile */
   --margin-mobile: 10px;
+  /* margins for tablets */
+  --margin-tablet: 10px;
     
   /* paddings */
   --padding: 20px;
   --padding-main: 6rem;
+  /* paddings for tablets */
   --padding-main-tablet: 3rem;
 }
 

@@ -57,7 +57,7 @@
   
 }
   
-  /* Tablet and Smaller Desktop */
+/* Tablet */
 @media (min-width: 701px) and (max-width: 1120px) {
     
     .icon_social_media {

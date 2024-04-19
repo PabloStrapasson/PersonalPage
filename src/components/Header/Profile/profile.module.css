@@ -26,15 +26,11 @@
   
   }
   
-  /* Tablet and Smaller Desktop */
+/* Tablet */
 @media (min-width: 701px) and (max-width: 1120px) {
     
     .profile_itens {
-        width: auto;
-        text-align: center;
-        margin: var(--margin);
-        font-size: var(--font-size-contact);
-        animation: appear 2s ease-in-out;
+        font-size: var(--font-size-mobile-contact);
     }
   
 }

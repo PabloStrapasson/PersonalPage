@@ -66,11 +66,19 @@
   
 }
   
-  /* Tablet and Smaller Desktop */
+  /* Tablet */
   @media (min-width: 701px) and (max-width: 1120px) {
     
     .main {
       padding: var(--padding-main-tablet);
+    }
+
+    .not_found {
+        font-size: var(--font-size-tablet-h2);
+    }
+
+    .not_found img {
+        width: 300px;
     }
   
 }

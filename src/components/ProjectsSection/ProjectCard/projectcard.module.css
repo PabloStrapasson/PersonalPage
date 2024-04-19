@@ -68,17 +68,17 @@
   
 }
   
-  /* Tablet and Smaller Desktop */
-  @media (min-width: 701px) and (max-width: 1120px) {
+/* Tablet */
+@media (min-width: 701px) and (max-width: 1120px) {
     
     .project_card {
         width: 300px;
-        height: 230px;
+        height: 250px;
     }
     
     .project_card_header {
         font-size: 9pt;
-        padding: 15px;
+        padding: 18px;
     }
     
     .project_description {
