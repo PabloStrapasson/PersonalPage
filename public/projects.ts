@@ -7,6 +7,12 @@ const projects = {
             technologies: ["javascript", "react", "next", "sass"]
         },
         {
+            name: "Adopet back-end",
+            description: "Projeto de uma API para um site de adoção de pets (Adopet), utilizando a linguagem Typescript para o desenvolvimento e SQLite para o armazenamento dos dados. Utilização do Express para a criação do servidor e do TypeORM para realizar o mapeamento das entidades do sistema para o banco de dados.",
+            repository: "https://github.com/PabloStrapasson/Adopet",
+            technologies: ["typescript", "sqlite"]
+        },
+        {
             name: "App Studies",
             description: "Aplicação para auxilio na organização dos estudos. Possibilita a criação e adição de novas tarefas a uma lista de tarefas a serem realizadas, bem como um cronometro para marcar o tempo de realização de cada tarefa. Para a implementação foi utilizado React, Typescript e Sass para a estilização.",
             repository: "https://github.com/PabloStrapasson/App-Studies",
