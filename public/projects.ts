@@ -7,6 +7,12 @@ const projects = {
             technologies: ["javascript", "react", "next", "sass"]
         },
         {
+            name: "API para loja virtual Compree",
+            description: "Projeto de uma API para uma loja virtual chamada Compree. Desenvolvida utilizando o framework Nest.js que fornece uma arquitetura modularizada, o que possibilita o desenvolvimento de aplicações altamente escaláveis e de fácil manutenção. A aplicação foi escrita em typescript e utiliza o docker para a criação do servidor de banco de daods PostgreSQL, para a manipulação do banco de dados foi usado o TypeORM.",
+            repository: "https://github.com/PabloStrapasson/API-Loja-with-NestJS.git",
+            technologies: ["nestjs", "typescrpit", "postgresql", "docker"]
+        },
+        {
             name: "Adopet back-end",
             description: "Projeto de uma API para um site de adoção de pets (Adopet), utilizando a linguagem Typescript para o desenvolvimento e SQLite para o armazenamento dos dados. Utilização do Express para a criação do servidor e do TypeORM para realizar o mapeamento das entidades do sistema para o banco de dados.",
             repository: "https://github.com/PabloStrapasson/Adopet",
@@ -40,7 +46,7 @@ const projects = {
             name: "App Docs",
             description: "Projeto de uma aplicação de edição e compartilhamento de documentos online. O projeto foi desenvolvido com Node.js e utiliza a tecnologia Web Sockets para criar uma sessão de comunicação em tempo real entre o usuário e o servidor e o banco de dados MongoDb para armazenar os documentos criados.",
             repository: "https://github.com/PabloStrapasson/App-Docs",
-            technologies: ["javascript", "nodejs", "socket-io", "Mongodb"]
+            technologies: ["javascript", "nodejs", "socket-io", "mongodb"]
         },
         {
             name: "Aplicação Spring Boot",

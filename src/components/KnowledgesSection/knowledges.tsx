@@ -1,7 +1,7 @@
 import styles from "./knowledges.module.css"
 import IconsGrid from "./IconsGrid/iconsgrid"
 
-const skills = ["python", "html", "css", "sass","javascript", "typescript", "react", "next", "nodejs", "java", "mongodb", "sqlite", "mysql", "git", "github"]
+const skills = ["python", "html", "css", "sass","javascript", "typescript", "react", "next", "nodejs", "nestjs", "java", "mongodb", "sqlite", "mysql", "git", "github"]
 
 export default function Knowledges() {
   return (
