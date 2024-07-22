@@ -8,7 +8,7 @@ const projects = {
         },
         {
             name: "API para Compree",
-            description: "Projeto de uma API para uma loja virtual (Compree) desenvolvida utilizando o framework Nest.js que fornece uma arquitetura modularizada, o que possibilita o desenvolvimento de aplicações altamente escaláveis e de fácil manutenção. A aplicação foi escrita em typescript e utiliza o docker para a criação do servidor de banco de daods PostgreSQL.",
+            description: "Projeto de uma API para uma loja virtual (Compree) desenvolvida utilizando o framework Nest.js que fornece uma arquitetura modularizada, o que possibilita o desenvolvimento de aplicações altamente escaláveis e de fácil manutenção. A aplicação foi escrita em typescript e utiliza o docker para a criação do servidor de banco de dados PostgreSQL.",
             repository: "https://github.com/PabloStrapasson/API-Loja-with-NestJS.git",
             technologies: ["nestjs", "typescript", "postgresql", "docker"]
         },
