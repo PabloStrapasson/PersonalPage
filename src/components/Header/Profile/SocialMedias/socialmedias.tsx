@@ -8,7 +8,7 @@ export default function SocialMedias() {
         src="/icons/linkedin.svg"
         alt="linkedin"
         class_name="icon_social_media"
-        href="https://www.linkedin.com/in/pablo-strapasson-103359218/"
+        href="https://www.linkedin.com/in/pablo-daniel-riveros-strapasson-103359218"
         title="Linkedin"
       />
       <Icon 
